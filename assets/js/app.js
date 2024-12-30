@@ -4,7 +4,6 @@ function navopen() {
 }
 function navclose() {
     document.getElementById("sidebar");
-    document.getElementById("opensidebar");
     document.getElementById("sidebar").style.width = "0";
     document.getElementById("main").style.backgroundColor = "white";
 }
