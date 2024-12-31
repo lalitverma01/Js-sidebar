@@ -1,6 +1,5 @@
 function navopen() {
     document.getElementById("sidebar").style.width = "286px";
-    document.getElementById("sidebar").style.display = "block";
     document.getElementById("bg-layer").style.display = "block";
 }
 
