@@ -15,9 +15,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 .bg-color {
     background-color: #F7F7F7;
 }
+
 .d-flex {
     display: flex;
 }
@@ -50,15 +52,15 @@
     width: 0px;
     height: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 50;
     top: 0px;
     left: 0px;
     box-shadow: 9px 4px 26px 0px #0000000F;
     overflow-x: hidden;
     transition: 1s;
     padding-top: 78px;
-    border-top-right-radius: 16px;
     background: white;
+    border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
 }
 
@@ -132,4 +134,17 @@
     margin-top: 31px;
     color: white;
     background: linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%);
+}
+
+.bg-layer {
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #b9b9b9;
+    opacity: 50%;
+    display: none;
+    z-index: 15;
+
 }
